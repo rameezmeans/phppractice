@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Table</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .all-tickets {
+            position: absolute;
+            height: 942px;
+            left: 268px;
+            right: 17px;
+            top: 102px;
+        }
+        
+        .table-top {
+            position: absolute;
+            height: 24px;
+            left: 20px;
+            right: 850px;
+            top: 32px;
+            /* Bold 19 (0.4 px) */
+            font-style: normal;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 24px;
+            /* identical to box height */
+            letter-spacing: 0.4px;
+            /* grayscale / black */
+            color: #252733;
+        }
+        
+        .table {
+            position: absolute;
+            width: 700px;
+            left: 22px;
+            right: 10px;
+            top: 104px;
+        }
+        
+        th,
+        td {
+            padding: 5px;
+        }
+        
+        th {
+            text-align: left;
+        }
+
+        td {
+            text-align: left !important;
+        }
+        
+        .bg {
+            padding: 5px;
+        }
+        
+        .btn {
+            position: absolute;
+            width: 100px;
+            left: 22px;
+            right: 10px;
+            top: 64px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all-tickets"> <span class="table-top">All Tickets</span>
+        <button class="btn btn-success">Add Ticket</button>
+        <table class="table">
+            <tr>
+                <th width='5%'>ID</th>
+                <th width='10%'>Name</th>
+                <th width='35%'>Description</th>
+                <th width='10%'>Priority</th>
+                <th width='20%'>Image</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alfreds Futterkiste</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td>
+                <td><span class="bg bg-danger">Normal</span></td>
+                <td>Image</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alfreds Futterkiste</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td>
+                <td><span class="bg bg-success">Normal</span></td>
+                <td>Image</td>
+            </tr>
+        </table>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

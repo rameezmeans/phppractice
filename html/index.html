@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Book Practice</title>
+    <style>
+        article p {
+            color: green;
+        }
+
+        /*Pseudo classes: STRANGE: If we write link after hover then hover won't work in Chrome.*/
+
+        a:visited {
+            color: aqua;
+        }
+
+        a:link {
+            color: red;
+        }
+
+        a:hover {
+            color: blueviolet;
+        }
+
+        /*Pseudo Elements*/
+
+        article p::first-line {
+            color: red;
+        }
+
+        article p::first-letter {
+            color: orange;
+            font-size: 24px;
+        }
+
+        .div1 {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+        }
+
+        .div2 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid red;
+        }
+
+        .div3 {
+            width: 300px;
+            height: 100px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+
+        .div4 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+
+<body>
+    <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </article>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.yahooo.com">Yahoo</a>
+    <a href="https://www.apple.com">Apple</a>
+
+    <div class="div1">Content</div>
+    <div class="div2">Content</div>
+    <div class="div3">Content</div>
+    <div class="div4">Content</div>
+
+</body>
+
+</html>
