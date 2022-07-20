@@ -35,6 +35,7 @@ $age = 34;
 
 
 echo "$name is $age old.";
+echo "$name is $age old.";
 
 
 
@@ -43,6 +44,13 @@ echo "$name is $age old.";
 ?>
 
 <html>
-<head><title>PHP Practice</title></head>
-<body><h1></h1></body>
+
+<head>
+    <title>PHP Practice</title>
+</head>
+
+<body>
+    <h1></h1>
+</body>
+
 </html>
